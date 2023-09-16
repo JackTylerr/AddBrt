@@ -65,6 +65,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      font-family: Comic Sans MS;
+      font-weight: 900;
     }
 
     .menu-item {
@@ -84,4 +86,12 @@
     .menu-separator {
       margin: 15px 0;
       border: none;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 12px;
     }
